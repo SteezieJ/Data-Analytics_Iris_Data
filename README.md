@@ -12,24 +12,16 @@ Analytics performed on the fisher iris dataset
 
 
 ## Average and variance of each feature for the total population and for each class
- -------- For Population --------
-Mean for sepal_length is 5.84
-Variance for sepal_length is 0.68
 
+|  | Population |  Species Setosa |  Species Versicolor  |  Species Virginica  |
+|-----|-----|---|---|---|
+|  Sepal length Mean   | 5.84  |   5.01  |  5.94 |  6.59 |
+|  Sepal length Variance   |  0.68 |  0.12   |  0.26 | 0.4  |
+|  Sepal width Mean  |     |   |   |   |
+|  Sepal width Variance  |     |   |   |   |
+|  Petal length Mean  |     |   |   |   |
+|  Petal width Variance  |     |   |   |   |
 
- -------- For Classes --------
-Mean for sepal_length is 5.01, for Species is Setosa 
-Variance for sepal_length is 0.12, for Species is Setosa 
-
-
-Mean for sepal_length is 5.94, for Species is Versicolor 
-Variance for sepal_length is 0.26, for Species is Versicolor 
-
-
-Mean for sepal_length is 6.59, for Species is Virginica 
-Variance for sepal_length is 0.4, for Species is Virginica 
-
--------------------------------------------------
 
 
  -------- For Population --------

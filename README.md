@@ -17,68 +17,10 @@ Analytics performed on the fisher iris dataset
 |-----|-----|---|---|---|
 |  Sepal length Mean   | 5.84  |   5.01  |  5.94 |  6.59 |
 |  Sepal length Variance   |  0.68 |  0.12   |  0.26 | 0.4  |
-|  Sepal width Mean  |     |   |   |   |
-|  Sepal width Variance  |     |   |   |   |
-|  Petal length Mean  |     |   |   |   |
-|  Petal width Variance  |     |   |   |   |
+|  Sepal width Mean  |  3.06   |  3.43 | 2.77  | 2.97  |
+|  Sepal width Variance  |  0.19   |  0.14 |  0.1 |  0.1 |
+|  Petal length Mean  |   3.76  | 1.46  |  4.26 |  5.55 |
+|  Petal length Variance  |  3.1   | 0.03  | 0.22  |  0.3 |
+|  Petal width Mean  |   1.2  | 0.25  |  1.33 |  2.03 |
+|  Petal width Variance  |  0.58   | 0.01  | 0.04  |  0.07 |
 
-
-
- -------- For Population --------
-Mean for sepal_width is 3.06
-Variance for sepal_width is 0.19
-
-
- -------- For Classes --------
-Mean for sepal_width is 3.43, for Species is Setosa 
-Variance for sepal_width is 0.14, for Species is Setosa 
-
-
-Mean for sepal_width is 2.77, for Species is Versicolor 
-Variance for sepal_width is 0.1, for Species is Versicolor 
-
-
-Mean for sepal_width is 2.97, for Species is Virginica 
-Variance for sepal_width is 0.1, for Species is Virginica 
-
-
--------------------------------------------------
- -------- For Population --------
-Mean for petal_length is 3.76
-Variance for petal_length is 3.1
-
-
- -------- For Classes --------
-Mean for petal_length is 1.46, for Species is Setosa 
-Variance for petal_length is 0.03, for Species is Setosa 
-
-
-Mean for petal_length is 4.26, for Species is Versicolor 
-Variance for petal_length is 0.22, for Species is Versicolor 
-
-
-Mean for petal_length is 5.55, for Species is Virginica 
-Variance for petal_length is 0.3, for Species is Virginica 
-
--------------------------------------------------
-
-
- -------- For Population --------
-Mean for petal_width is 1.2
-Variance for petal_width is 0.58
-
-
- -------- For Classes --------
-Mean for petal_width is 0.25, for Species is Setosa 
-Variance for petal_width is 0.01, for Species is Setosa 
-
-
-Mean for petal_width is 1.33, for Species is Versicolor 
-Variance for petal_width is 0.04, for Species is Versicolor 
-
-
-Mean for petal_width is 2.03, for Species is Virginica 
-Variance for petal_width is 0.07, for Species is Virginica 
-
-
--------------------------------------------------

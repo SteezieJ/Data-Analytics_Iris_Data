@@ -2,16 +2,7 @@
 Analytics performed on the fisher iris dataset
 
 
--- Fisher Iris Dataset --
-   sepal_length  sepal_width  petal_length  petal_width Species
-0           5.1          3.5           1.4          0.2  Setosa
-1           4.9          3.0           1.4          0.2  Setosa
-2           4.7          3.2           1.3          0.2  Setosa
-3           4.6          3.1           1.5          0.2  Setosa
-4           5.0          3.6           1.4          0.2  Setosa
-
-
-## Average and variance of each feature for the total population and for each class
+## Average and variance of each feature for the total population and for each class for a normal dataset
 
 |  | Population |  Species Setosa |  Species Versicolor  |  Species Virginica  |
 |-----|-----|---|---|---|
@@ -23,4 +14,19 @@ Analytics performed on the fisher iris dataset
 |  Petal length Variance  |  3.1   | 0.03  | 0.22  |  0.3 |
 |  Petal width Mean  |   1.2  | 0.25  |  1.33 |  2.03 |
 |  Petal width Variance  |  0.58   | 0.01  | 0.04  |  0.07 |
+
+## Average and variance of each feature for a noisy dataset
+
+|  | Population |  Species Setosa |  Species Versicolor  |  Species Virginica  |
+|-----|-----|---|---|---|
+|  Sepal length Mean   | 5.86  |   4.96|  5.97 |  6.61 |
+|  Sepal length Variance   |  0.95 |  0.21   |  0.58 | 0.73  |
+|  Sepal width Mean  |  3.08   |  3.48 | 2.82  | 2.95  |
+|  Sepal width Variance  |  0.95   |  0.21 |  0.6 |  0.73 |
+|  Petal length Mean  |   3.76  | 1.45  |  4.28 |  5.56 |
+|  Petal length Variance  |  3.26   | 0.05  | 0.38  |  0.48 |
+|  Petal width Mean  |   1.22  | 0.24  |  1.32 |  2.09 |
+|  Petal width Variance  |  0.65   | 0.02  | 0.09  |  0.12 |
+
+
 

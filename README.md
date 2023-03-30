@@ -4,6 +4,7 @@ Analytics performed on the fisher iris dataset
 
 ## Average and variance of each feature for the total population and for each class for a normal dataset
 
+
 |  | Population |  Species Setosa |  Species Versicolor  |  Species Virginica  |
 |-----|-----|---|---|---|
 |  Sepal length Mean   | 5.84  |   5.01  |  5.94 |  6.59 |
@@ -14,6 +15,8 @@ Analytics performed on the fisher iris dataset
 |  Petal length Variance  |  3.1   | 0.03  | 0.22  |  0.3 |
 |  Petal width Mean  |   1.2  | 0.25  |  1.33 |  2.03 |
 |  Petal width Variance  |  0.58   | 0.01  | 0.04  |  0.07 |
+
+
 
 ## Average and variance of each feature for a noisy dataset
 
@@ -27,6 +30,8 @@ Analytics performed on the fisher iris dataset
 |  Petal length Variance  |  3.26   | 0.05  | 0.38  |  0.48 |
 |  Petal width Mean  |   1.22  | 0.24  |  1.32 |  2.09 |
 |  Petal width Variance  |  0.65   | 0.02  | 0.09  |  0.12 |
+
+
 
 ## T-Statistics for normal and noisy datasets
 ### Normal dataset
@@ -64,6 +69,8 @@ Analytics performed on the fisher iris dataset
 |  Petal length  |   | 18.183  | 1.99e-23  |
 |  Petal width  |   | 17.840  |  4.49e-23 |
 
+
+
 ## One-way analysis of variation (ANOVA1) analysis for both the original and noisy datasets
 Generating F-statistics and p-values for each feature to select the two features that provide the best distinction between the classes. 
 Using Null Hypothesis: Means of all three group (i.e Species are Identical, which means that all species have the same sepal, petal, length and width)
@@ -82,6 +89,7 @@ This provides the following most prominent scatter graphs showing the 2 most pro
 ![ANOVA graph](images/anovagraph.png)
 
 
+
 ## Principal Component Analysis
 Determining what fraction of total variance in the set is represented by each principal component. Generate two scatterplots, first of the two most prominent principal components, and then of the two least prominent principal component for the original and noisy datasets in the image below.
 
@@ -93,6 +101,8 @@ Determining what fraction of total variance in the set is represented by each pr
 | Sepal Width | 0.229 | 0.225 |
 | Petal Length | 0.037 | 0.080 |
 | Petal Width | 0.005 | 0.020 |
+
+
 
 
 ## Gaussian Mixture cluster analysis

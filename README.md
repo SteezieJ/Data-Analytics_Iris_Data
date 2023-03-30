@@ -68,9 +68,9 @@ Analytics performed on the fisher iris dataset
 Generating F-statistics and p-values for each feature to select the two features that provide the best distinction between the classes. 
 Using Null Hypothesis: Means of all three group (i.e Species are Identical, which means that all species have the same sepal, petal, length and width)
 
-![ANOVA](images/anovastat)
+![ANOVA](images/anovastat.png)
 
 We reject the null hypothesis and accept the alternative hypothesis proven by the F-statistice and p- values.
 This provides the following most prominent scatter graphs showing the 2 most prominent features being petal length and width and the 2 least prominent features being sepal width and length.
 
-![ANOVA graph](images/anovagraph)
+![ANOVA graph](images/anovagraph.png)

@@ -28,5 +28,21 @@ Analytics performed on the fisher iris dataset
 |  Petal width Mean  |   1.22  | 0.24  |  1.32 |  2.09 |
 |  Petal width Variance  |  0.65   | 0.02  | 0.09  |  0.12 |
 
+## T-Statistics for noraml and nois datasets
+| Flower Parameter |  Species |  T-Statistic  |  P-Value  |
+|-----|-----|---|---|---|
+|  Sepal length    |  Setosa |  -16.7972 |  5.72e-22 | 
+|  Sepal width  |   |   |   |   |   |
+|  Petal length  |   |   |   |   |   |
+|  Petal width  |   |   |   |   |   |
+
+|  Sepal length    |  Veriscolor |   |   |   |   |
+|  Sepal width  |   |   |   |   |   |
+|  Petal length  |   |   |   |   |   |
+|  Petal width  |   |   |   |   |   |
+|  Sepal length    |  Virginica |   |   |   |   |
+|  Sepal width  |   |   |   |   |   |
+|  Petal length  |   |   |   |   |   |
+|  Petal width  |   |   |   |   |   |
 
 

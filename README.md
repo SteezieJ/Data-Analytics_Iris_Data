@@ -64,13 +64,39 @@ Analytics performed on the fisher iris dataset
 |  Petal length  |   | 18.183  | 1.99e-23  |
 |  Petal width  |   | 17.840  |  4.49e-23 |
 
- ## One-way analysis of variation (ANOVA1) analysis for both the original and noisy datasets
+## One-way analysis of variation (ANOVA1) analysis for both the original and noisy datasets
 Generating F-statistics and p-values for each feature to select the two features that provide the best distinction between the classes. 
 Using Null Hypothesis: Means of all three group (i.e Species are Identical, which means that all species have the same sepal, petal, length and width)
 
-![ANOVA](images/anovastat.png)
+
+| PCA Parameter | F Statistic | P-Value < Alpha | Null Hypothesis |
+|-----|-----|---|---|
+| Sepal Length | 119.265 | True | Reject |
+| Sepal Width | 49.160 | True | Reject |
+| Petal Length | 1180.161 | True | Reject |
+| Petal Width | 960.007 | True | Reject |
 
 We reject the null hypothesis and accept the alternative hypothesis proven by the F-statistice and p- values.
 This provides the following most prominent scatter graphs showing the 2 most prominent features being petal length and width and the 2 least prominent features being sepal width and length.
 
 ![ANOVA graph](images/anovagraph.png)
+
+
+## Principal Component Analysis
+Determining what fraction of total variance in the set is represented by each principal component. Generate two scatterplots, first of the two most prominent principal components, and then of the two least prominent principal component for the original and noisy datasets in the image below.
+
+![PCA](images/pca.png)
+
+| PCA Parameter | Original Variance Fraction | Noisy Variance Fraction |
+|-----|-----|---|
+| Sepal Length | 0.730 | 0.675 |
+| Sepal Width | 0.229 | 0.225 |
+| Petal Length | 0.037 | 0.080 |
+| Petal Width | 0.005 | 0.020 |
+
+
+## Gaussian Mixture cluster analysis
+Using the cores of the two most prominent principal components, the following distributions are found.
+
+![PCA Gaussian](images/pcagaussian.png)
+

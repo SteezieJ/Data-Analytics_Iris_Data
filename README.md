@@ -28,13 +28,14 @@ Analytics performed on the fisher iris dataset
 |  Petal width Mean  |   1.22  | 0.24  |  1.32 |  2.09 |
 |  Petal width Variance  |  0.65   | 0.02  | 0.09  |  0.12 |
 
-## T-Statistics for noraml and nois datasets
+## T-Statistics for normal and noisy datasets
+### Normal dataset
 
 | Flower Parameter |  Species |  T-Statistic  |  P-Value  |
 |-----|-----|---|---|
 |  Sepal length    |  Setosa |  -16.797 |  5.72e-22 | 
 |  Sepal width  |   | 6.914  | 9.0e-09  |
-|  Petal length  |   |  -93.486 |  6.913-57 | 
+|  Petal length  |   |  -93.486 |  6.913e-57 | 
 |  Petal width  |   | -63.966  |  7.06e-49 |
 |  Sepal length    |  Veriscolor |  1.269 | 2.10e-01  | 
 |  Sepal width  |   | -6.475  |  4.32e-08 |
@@ -46,3 +47,30 @@ Analytics performed on the fisher iris dataset
 |  Petal width  |   | 21.283  |  2.09e-26 |
 
 
+### Noisy dataset
+
+| Flower Parameter |  Species |  T-Statistic  |  P-Value  |
+|-----|-----|---|---|
+|  Sepal length    |  Setosa |  -13.233 |  8.49e-18 | 
+|  Sepal width  |   | 5.425  | 1.78e-06  |
+|  Petal length  |   |  -75.570 |  2.17e-52 | 
+|  Petal width  |   | -44.837  |  1.92e-41 |
+|  Sepal length    |  Veriscolor |  1.006 | 3.20e-01  | 
+|  Sepal width  |   | -3.798  |  4.02e-04 |
+|  Petal length  |   |  5.833 | 4.22e-07  | 
+|  Petal width  |   | 2.480  | 1.66e-02  | 
+|  Sepal length    |  Virginica |  6.119| 1.54e-07  |
+|  Sepal width  |   | -2.370  | 2.18e-02  |
+|  Petal length  |   | 18.183  | 1.99e-23  |
+|  Petal width  |   | 17.840  |  4.49e-23 |
+
+ ## One-way analysis of variation (ANOVA1) analysis for both the original and noisy datasets
+Generating F-statistics and p-values for each feature to select the two features that provide the best distinction between the classes. 
+Using Null Hypothesis: Means of all three group (i.e Species are Identical, which means that all species have the same sepal, petal, length and width)
+
+![ANOVA](anovastat)
+
+We reject the null hypothesis and accept the alternative hypothesis proven by the F-statistice and p- values.
+This provides the following most prominent scatter graphs showing the 2 most prominent features being petal length and width and the 2 least prominent features being sepal width and length.
+
+![ANOVA graph](anovagraph)

@@ -36,13 +36,13 @@ Analytics performed on the fisher iris dataset
 |  Sepal width  |   | 6.914  | 9.0e-09  |
 |  Petal length  |   |  -93.486 |  6.913-57 | 
 |  Petal width  |   | -63.966  |  7.06e-49 |
-|  Sepal length    |  Veriscolor |   |   | 
-|  Sepal width  |   |   |   |
-|  Petal length  |   |   |   | 
-|  Petal width  |   |   |   | 
-|  Sepal length    |  Virginica |   |   |
-|  Sepal width  |   |   |   |
-|  Petal length  |   |   |   |
-|  Petal width  |   |   |   |
+|  Sepal length    |  Veriscolor |  1.269 | 2.10e-01  | 
+|  Sepal width  |   | -6.475  |  4.32e-08 |
+|  Petal length  |   |  7.554 | 9.24e-10  | 
+|  Petal width  |   | 4.529  | 3.80e-05  | 
+|  Sepal length    |  Virginica |  8.281 | 7.12e-11  |
+|  Sepal width  |   | -1.827  | 7.38e-02  |
+|  Petal length  |   | 22.985  | 6.73e-28  |
+|  Petal width  |   | 21.283  |  2.09e-26 |
 
 
